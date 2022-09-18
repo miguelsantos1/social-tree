@@ -28,7 +28,7 @@ main {
 }
 
 .person img {
-    animation: img 1s reverse linear;
+    animation: img .5s reverse linear;
     width: 220px;
     height: 220px;
     border-radius: 20rem;
@@ -90,6 +90,6 @@ main {
     from {transform: translate(0px);}
 }
 @keyframes img {
-    to { transform: translatey(-2000px);} 
+    to { transform: translatey(-1000);} 
     from {transform: translate(0px);}
 }
