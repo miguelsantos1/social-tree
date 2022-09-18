@@ -1,4 +1,5 @@
 # social-tree
 Rocketseat Challenge | website focused on links
 
-![project](https://user-images.githubusercontent.com/95758854/190001910-25df32d3-ed0d-4087-854d-75e03e41d3f1.png)
+![social](https://user-images.githubusercontent.com/95758854/190925549-277d0f2e-9b7b-415d-af85-5085da5c111c.png)
+
