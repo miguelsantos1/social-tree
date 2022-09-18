@@ -22,11 +22,13 @@ body {
 }
 
 main {
+    animation: opacity .4s reverse;
     text-align: center;
     margin: 2rem 0;
 }
 
 .person img {
+    animation: img 1s reverse linear;
     width: 220px;
     height: 220px;
     border-radius: 20rem;
@@ -44,6 +46,7 @@ main {
 }
 
 .links a {
+    animation: links .8s reverse;
     text-decoration: none;
     color: inherit;
     font-weight: 600;
@@ -67,8 +70,26 @@ main {
 }
 
 .social-media ul {
+    animation: otherLinks .8s reverse;
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+@keyframes opacity {
+    to { opacity: 0; transform: translateY(-20px); }
+    from { opacity: 1; transform: translateY(0px);} 
+}
+@keyframes links {
+    to { transform: translatex(-400px);} 
+    from {transform: translate(0px);}
+}
+@keyframes otherLinks {
+    to { transform: translatex(400px);} 
+    from {transform: translate(0px);}
+}
+@keyframes img {
+    to { transform: translatey(-2000px);} 
+    from {transform: translate(0px);}
 }
