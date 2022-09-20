@@ -1,6 +1,6 @@
 :root {
     --body-bg-color: #1c1b22;
-    --main-color: rgba(255, 255, 255, 0.584);
+    --main-color: #ffffff95;
     /* Poppins syntax: font-family: 'Poppins', sans-serif; */
 }
 
@@ -28,13 +28,17 @@ main {
     margin: 2rem 0;
 }
 
-.person img {
+.person > img {
     animation: img .5s reverse linear;
     width: 220px;
     height: 220px;
     border-radius: 20rem;
     outline-offset: 5px;
     outline: 2px solid var(--main-color);
+}
+
+#arrow {
+    animation: selector 2s reverse linear infinite;
 }
 
 .person p {
@@ -56,7 +60,7 @@ main {
     font-size: 1rem;
     display: block;
     margin: 16px 0px;
-    padding: 7px 80px;
+    padding: 7px 100px;
     letter-spacing: 2px;
     transition: .6s;
 }
@@ -78,6 +82,11 @@ main {
     gap: 30px;
 }
 
+@keyframes selector {
+    0% { transform: translatey(2px); }
+    50% { transform: translatey(7px); }
+    100% { transform: translateY(2px); }   
+}
 @keyframes opacity {
     to { opacity: 0; transform: translateY(-20px); }
     from { opacity: 1; transform: translateY(0px);} 
