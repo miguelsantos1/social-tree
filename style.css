@@ -14,6 +14,7 @@ body {
     background-color: var(--body-bg-color);
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    width: 100vw;
     text-align: center;
     color: var(--main-color);
     display: flex;
@@ -55,14 +56,14 @@ main {
     font-size: 1rem;
     display: block;
     margin: 16px 0px;
-    padding: 7px 110px;
+    padding: 7px 80px;
     letter-spacing: 2px;
     transition: .6s;
 }
 
 .links a:hover {
-    box-shadow: 2px 2px 1px rgba(187, 153, 221, 0.849);
-    transition: .3s;
+    box-shadow: 2px 2px 1px rgba(255, 255, 255, 0.292);
+    transition: .2s;
 }
 
 .links ul li:last-child a {
@@ -90,6 +91,6 @@ main {
     from {transform: translate(0px);}
 }
 @keyframes img {
-    to { transform: translatey(-1000);} 
+    to { transform: translatey(-1500);} 
     from {transform: translate(0px);}
 }
