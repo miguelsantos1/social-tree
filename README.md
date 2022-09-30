@@ -1,5 +1,5 @@
 # social-tree
-Rocketseat Challenge | website focused on links
+website focused on links
 
 
 DESKTOP
