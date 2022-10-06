@@ -1,18 +1,18 @@
 # social tree
-<p>Site focado em links. Contendo minhas principais redes sociais e projetos. </p>
+<p>Website focused on links. Containing my main social networks and projects. </p>
 
-> Status: Finalizado
+> Status: Finished
 
-### 🛠 Tecnologias
+### 🛠 technologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in building the project:
 
 - HTML
 - CSS
 
 
 
-## Projeto <br>
+## Project <br>
 DESKTOP
 
 ![social-tree-desktop](https://user-images.githubusercontent.com/95758854/193297987-bb16fcba-4f15-4290-850c-c65c87b00b11.png)
