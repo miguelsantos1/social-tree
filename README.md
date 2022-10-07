@@ -12,7 +12,7 @@ The following tools were used in building the project:
 
 
 
-## Project <br>
+## Layout <br>
 DESKTOP
 
 ![social-tree-desktop](https://user-images.githubusercontent.com/95758854/193297987-bb16fcba-4f15-4290-850c-c65c87b00b11.png)
